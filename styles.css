@@ -1,0 +1,488 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FFFFFF;
+}
+
+/* header */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 60%;
+	margin: 20px auto;
+	z-index: 1;
+}
+
+.logo-header {
+	width: 167.02px;
+	height: 29.46px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 234px;
+	height: 15px;
+	left: 1041px;
+	top: 37px;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+/* main_part */
+.page-section-schooled {
+	background-image: url(../html_advanced/images/Background.png);
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 110vh;
+	left: 0px;
+	top: 0px;
+}
+
+.div-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+}
+/* Get schooled */
+.div-title h1 {
+	position: flex;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 120px;
+	line-height: 151px;
+	margin: 0;
+}
+
+.div-title p {
+	position: flex;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	word-spacing: 40px;
+}
+
+button {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	background: #C271FF;
+	border-radius: 22px;
+	position: flex;
+	padding: 10px 20px;
+	border: none;
+	color: #FFFFFF;
+}
+
+.page-section-schooled h2 {
+	position: absolute;
+	height: 40px;
+	left: 41.94%;
+	right: 39.93%;
+	top: calc(50% - 40px/2 + 104.5px);
+	font-style: normal;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.highlight {
+	color: #C271FF;
+	font-weight: 700;
+}
+
+.container-pro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* pros */
+.pro {
+	position: absolute;
+	width: 60vw;
+	height: 237px;
+	top: 758px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pro div {
+	padding: 20px;
+
+}
+
+.pro img {
+	position: flex;
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	top: 0px;
+}
+
+.pro h3 {
+	height: 27px;
+	left: 0%;
+	right: 0%;
+	top: calc(50% - 27px/2 + 55px);
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	margin: 0;
+}
+
+.pro p {
+	height: 48px;
+	left: 0%;
+	right: 0%;
+	top: calc(50% - 48px/2 + 94.5px);
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0;
+}
+
+.testimonial-container {
+	position: absolute;
+	width: 100%;
+	height: 392px;
+	left: -1px;
+	top: 1093px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #C271FF;
+}
+
+.testimonial-container img {
+	width: 160px;
+	height: 160px;
+	padding: 30px;
+}
+
+
+.text-testi blockquote {
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.text-testi .person {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.text-testi .present {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.tutorials {
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	top: 1572px;
+}
+
+.tutorials h1 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #071629;
+	padding-bottom: 50px;
+}
+
+
+.container-tuto {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.tuto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	padding: 0 20px;
+}
+
+.backtuto {
+	border-radius: 5px;
+	width: 80%;
+	height: auto;
+}
+
+.play {
+	position: absolute;
+	height: auto;
+	top: 10%;
+	width: 20%;
+	height: auto;
+	opacity: 90%;
+}
+
+.tuto h2 {
+	margin: 10px 0 5px 0;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+	text-align: start;
+	width: 70%;
+}
+
+.tuto-text {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(7, 22, 41, 0.501584);
+	text-align: left;
+	width: 80%;
+}
+
+.comment {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 80%;
+}
+
+.comment img {
+	border-radius: 50%;
+}
+
+.comment h3 {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	color: #C271FF;
+	margin: 10px;
+}
+
+.rate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.timer {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: right;
+	color: #C271FF;
+}
+
+.membership {
+	position: absolute;
+	width: 100%;
+	height: 502px;
+	left: 0px;
+	top: 2109px;
+	background: #071629;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.membership h1 {
+	padding-bottom: 40px;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.container-membership {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 40px;
+	width: 80%;
+}
+
+.member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.member h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.member p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	width: 60%;
+}
+
+.faq {
+	position: absolute;
+	width: 100%;
+	height: 707px;
+	top: 2678px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.faq h1 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 75px;
+	text-align: center;
+	color: #071629;
+}
+
+.faq-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+}
+
+.question-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	gap: 100px;
+	padding-bottom: 40px;
+}
+
+.question h2 {
+	height: 20px;
+	left: 0%;
+	right: 58.57%;
+	top: calc(50% - 20px/2 - 111px);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+}
+
+.question p {
+	height: 192px;
+	left: 0%;
+	right: 0%;
+	top: calc(50% - 192px/2 + 25px);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(7, 22, 41, 0.501584);
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 249px;
+	left: 0px;
+	top: 3469px;
+	background: #071629;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.social-media {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+}
+
+.footer-container p {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	mix-blend-mode: normal;
+	opacity: 0.35;
+	width: 100%;
+	text-align: center;
+}
